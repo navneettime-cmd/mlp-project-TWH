@@ -265,10 +265,10 @@ section{padding:64px 0}
 }
 
 /* Hero v19: product-page order (title → image → price → CTA → bullets) */
-.hero{padding:12px 0 44px}
+.hero{padding:8px 0 44px}
 .hero .wrap{display:grid;grid-template-columns:1fr;grid-template-areas:"head" "media" "buy";gap:8px}
 .hero-head{grid-area:head}
-.hero-media{grid-area:media;justify-self:center;width:100%;max-width:232px;padding:0}
+.hero-media{grid-area:media;justify-self:center;width:100%;max-width:208px;padding:0}
 .hero-buy{grid-area:buy}
 .hero h1{font-size:40px;line-height:.95}
 .pname{margin-top:8px;font-size:16px;line-height:1.4}
@@ -304,18 +304,18 @@ section{padding:64px 0}
 }
 @media (max-width:359px){
   .hero h1{font-size:34px}
-  .hero-media{max-width:190px}
+  .hero-media{max-width:176px}
   .pname{font-size:25px}
   .celebs img{width:60px;height:60px}
 }
 .celebs li{min-width:0}
 .celebs li span{min-width:0;overflow-wrap:anywhere}
-.hero-media{padding:6px 0 4px}
+.hero-media{padding:20px 0 20px}
 .hero-img{position:relative}
 .hero-img::before{content:"";position:absolute;left:50%;top:50%;width:58%;aspect-ratio:1/1;transform:translate(-50%,-50%);background:#DCC194;border-radius:50%}
 .hero-img img{position:relative;width:100%;height:auto;filter:drop-shadow(0 10px 14px rgba(90,64,28,.18))}
 .hero-media .blob{display:none}
-@media (min-width:1000px){.hero-media{padding:70px 0 50px}.hero-img::before{width:66%}}
+@media (min-width:1000px){.hero-media{padding:84px 0 64px}.hero-img::before{width:66%}}
 
 /* Hero v24: copy left / image right on desktop, product card, clean sans in the hero */
 :root{--sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--oat:#F4EBDD}
